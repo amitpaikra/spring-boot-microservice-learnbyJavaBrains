@@ -1,9 +1,11 @@
-package project.amit.ratingsdataservice.models;
+package project.amit.moviecatalogservice.models;
 
 public class Rating {
 	private String movieId;
 	private int rating;
-	public Rating() {}
+	
+	public Rating(){}
+	
 	public Rating(String movieId, int name) {
 		super();
 		this.movieId = movieId;
